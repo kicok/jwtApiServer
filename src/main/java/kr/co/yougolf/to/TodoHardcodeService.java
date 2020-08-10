@@ -11,8 +11,8 @@ import kr.co.yougolf.todo.Todo;
 @Service
 public class TodoHardcodeService {
 	
-	private static List<Todo> todos = new ArrayList();
-	private static int idCounter = 0;
+	private static List<Todo> todos = new ArrayList<>();
+	private static long idCounter = 0;
 	
 	static {
 		todos.add(new Todo(++idCounter, "yougolf", "Learn to Dance 2", new Date(), false));
