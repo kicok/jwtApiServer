@@ -1,5 +1,5 @@
 insert into todo(id, username , description, target_date, is_done)
-values(10001, 'in28minutes', 'Learn JPA aaa', sysdate(), false);
+values(10001, 'in28minutes', 'Learn JPA 하하', sysdate(), false);
 
 insert into todo(id, username , description, target_date, is_done)
 values(10002, 'in28minutes', 'Learn English Go', sysdate(), false);

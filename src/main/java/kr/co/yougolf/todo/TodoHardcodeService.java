@@ -1,12 +1,10 @@
-package kr.co.yougolf.to;
+package kr.co.yougolf.todo;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
-
-import kr.co.yougolf.todo.Todo;
 
 @Service
 public class TodoHardcodeService {
